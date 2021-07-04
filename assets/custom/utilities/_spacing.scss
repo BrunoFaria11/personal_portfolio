@@ -1,0 +1,111 @@
+$sm-max: map-get($grid-breakpoints, "sm");
+$md-max: map-get($grid-breakpoints, "md");
+$lg-max: map-get($grid-breakpoints, "lg");
+$xl-max: map-get($grid-breakpoints, "xl");
+
+// Spacing columns vertically
+
+/*.row.row-grid > [class*="col-"] + [class*="col-"] {
+    margin-top: 48px;
+}
+
+@include media-breakpoint-up(lg) {
+    .row.row-grid > [class*="col-lg-"] + [class*="col-lg-"] {
+        margin-top: 0;
+    }
+}
+@include media-breakpoint-up(md) {
+    .row.row-grid > [class*="col-md-"] + [class*="col-md-"] {
+        margin-top: 0;
+    }
+}
+@include media-breakpoint-up(sm) {
+    .row.row-grid > [class*="col-sm-"] + [class*="col-sm-"] {
+        margin-top: 0;
+    }
+}
+
+.row-grid + .row-grid {
+    margin-top: 48px;
+}*/
+
+// Negative margins and paddings
+@media(max-width: ($md-max)-1) {
+    .mt-sm--30 {
+        margin-top: -30px !important;
+    }
+
+    .mt-sm--64 {
+        margin-top: -64px !important;
+    }
+
+    .mt-sm--82 {
+        margin-top: -82px !important;
+    }
+}
+
+@media screen and (min-width: $md-max) and (max-width: ($lg-max)-1) {
+    .mt-md--200 {
+        margin-top: -162px !important;
+    }
+}
+
+@media(min-width: $lg-max) {
+    [class*="mt--"],
+    [class*="mr--"],
+    [class*="mb--"],
+    [class*="ml--"] {
+        position: relative;
+        z-index: 5;
+    }
+
+    //px
+    $class-slug: mt-;
+    @for $i from 0 through 1000 {
+        .#{$class-slug}-#{$i} {
+            margin-top: 0px - $i;
+        }
+    }
+
+    // Large margins in pixels
+
+    .pt-100 {
+        padding-top: 100px !important;
+    }
+
+    .pb-100 {
+        padding-bottom: 100px !important;
+    }
+
+    .pt-150 {
+        padding-top: 150px !important;
+    }
+
+    .pb-150 {
+        padding-bottom: 150px !important;
+    }
+
+    .pt-200 {
+        padding-top: 200px !important;
+    }
+
+    .pb-200 {
+        padding-bottom: 200px !important;
+    }
+
+    .pt-250 {
+        padding-top: 250px !important;
+    }
+
+    .pb-250 {
+        padding-bottom: 250px !important;
+    }
+
+    .pt-300 {
+        padding-top: 300px !important;
+    }
+
+    .pb-300 {
+        padding-bottom: 300px !important;
+    }
+}
