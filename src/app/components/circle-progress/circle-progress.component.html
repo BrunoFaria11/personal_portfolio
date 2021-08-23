@@ -1,0 +1,23 @@
+
+<div class="skills circles">
+  <div class="row">
+    <div *ngFor="let item of props.items" class="col-md-4 col-lg-4 col-sm-12 mb-5">
+      <div style="display: flex;justify-content: center;heigth:125px">
+        <div style="left: 50%;" >
+          <mat-progress-spinner
+            class="progress"
+            [color]="'#02ff5b'"
+            [mode]="mode"
+            [value]="item.value">
+          </mat-progress-spinner>
+          <span class="value" >{{item.value}}%</span>
+        </div>
+      </div>
+
+
+      <div class="name text-center" style="margin-bottom: 0px;">{{item.title}}</div>
+      <!-- <app-text-content [props]="{IsFull: true,value: item.desc}">
+      </app-text-content> -->
+    </div>
+  </div>
+</div>

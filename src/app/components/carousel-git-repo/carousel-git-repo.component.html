@@ -1,0 +1,44 @@
+<div class="content-carousel">
+  <owl-carousel-o [options]="owlOptions" #owlCar (translated)="carouseldData($event)">
+    <ng-container *ngFor="let data of props">
+      <ng-template carouselSlide>
+        <div class="item">
+          <div class="resume-item active">
+            <div class="row">
+              <div class="icon">
+                <img src="{{data.img}}" alt="">
+              </div>
+            </div>
+
+            <div class="name"><a href="{{data.html_url}}">{{data.name}}</a></div>
+            <div class="row">
+              <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-12">
+                <div class="date">{{data.date}}</div>
+              </div>
+              <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                <div class="pt-15">
+                  <app-text-content [props]="{IsFull: true,value:
+                    data.description}">
+                  </app-text-content>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </ng-template>
+    </ng-container>
+
+  </owl-carousel-o>
+
+  <!-- navigation -->
+  <div class="navs">
+    <div class="prev" (click)="owlCar.prev()">
+      <fa-icon [icon]="icons.faChevronLeft_" style="font-size: 14px"></fa-icon>
+    </div>
+    <div class="next" (click)="owlCar.next()">
+      <fa-icon [icon]="icons.faChevronRight_" style="font-size: 14px"></fa-icon>
+    </div>
+  </div>
+
+</div>

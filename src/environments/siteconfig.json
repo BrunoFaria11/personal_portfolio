@@ -1,0 +1,466 @@
+{
+  "pt": {
+    "navbar": {
+      "home": "Inico",
+      "about": "Sobre",
+      "resume": "Experiência",
+      "education": "Formação",
+      "skills": "Skills Code"
+    },
+    "section1": {
+      "typing": [
+        "C#",
+        ".net",
+        "SQL Server",
+        "Angular"
+      ],
+      "btn1":"Contacte-me",
+      "btn2":"Download CV",
+      "name": "Bruno Faria",
+      "resume": "Sou web developer na empresa 4DevCoding, trabalho com .net, C#, html, css, JS e SQL Server há aproximadamente três anos."
+    },
+    "section2": {
+      "title": "Sobre mim",
+      "subtitle": "Contactos",
+      "content": [
+        {
+          "IsFull": true,
+          "value": "Sou uma pessoa proativa e interessada, desta forma decidi ingressar numa nova etapa, encontrando-me atualmente a frequentar o curso de Desenvolvimento Web no Instituo Politécnico do Cávado e do Ave, com isto decidi aprofundar os meus conhecimentos, nomeadamente em Angular, PostgreSQL e React Native."
+        },
+        {
+          "IsFull": true,
+          "value": "Por curiosidade decidi de forma menos aprofundada adquirir conhecimento em Node.js, React."
+        }
+      ],
+      "personalInfo": [
+        {
+          "Morada": "Braga, Portugal"
+        },
+        {
+          "Email": "bruno.eduardo.faria99@gmail.com"
+        },
+        {
+          "Telefone": "927019328"
+        },
+        {
+          "Idade": "21"
+        }
+      ]
+    },
+    "section3": {
+      "title": "Serviços",
+      "subtitle": "Capacidades",
+      "services": [
+        {
+          "icon": "backend.png",
+          "title": {
+            "value1": "Back-End",
+            "value2": "",
+            "br": false
+          },
+          "text": {
+            "IsFull": false,
+            "value": "Ao longo dos três anos de trabalho adquiri conhecimentos que me permitem realizar APIs, cronjobs e tarefas em back-end utilizando c#. Atualmente, estou a aprender bases em node.js."
+          }
+        },
+        {
+          "icon": "server.png",
+          "title": {
+            "value1": "Base",
+            "value2": "de Dados",
+            "br": false
+          },
+          "text": {
+            "IsFull": false,
+            "value": "Devido a projetos realizados na empresa que represento, tive a oportunidade de explorar algumas Bases de Dados na tecnologia SQL Server. Desta forma, adquiri conhecimentos na criação, modelagem e na prática de Queries. "
+          }
+        },
+        {
+          "icon": "mobile-app.png",
+          "title": {
+            "value1": "Mobile",
+            "value2": "Apps",
+            "br": false
+          },
+          "text": {
+            "IsFull": false,
+            "value": "Para Mobile Apps tenho aprofundado conhecimentos em uma ferramenta híbrida, nomeadamente React Native. Esta permite realizar a build para os sistemas operativos Android e IOS."
+          }
+        },
+        {
+          "icon": "ux.png",
+          "title": {
+            "value1": "Front-End",
+            "value2": "",
+            "br": false
+          },
+          "text": {
+            "IsFull": false,
+            "value": "Neste momento encontro-me a aplicar em alguns projetos o conhecimento em Angular, utilizando HTML, CSS & SCSS, TS & JS."
+          }
+        }
+      ]
+    },
+    "section4": {
+      "title": "Experiência",
+      "subtitle": "com quem trabalhei",
+      "carousel": [
+        {
+          "id": 1,
+          "date": "2017-2018",
+          "title": "4Dev Coding",
+          "desc": "Enquanto estudante técnico de programação informática, tive o privilégio de fazer o meu estágio curricular na empresa 4Dev Coding."
+        },
+        {
+          "id": 2,
+          "date": "2018-2019",
+          "title": "4Dev Coding",
+          "desc": "Após o estágio curricular, surgiu a oportunidade de realizar um estágio profissional de 9 meses na 4Dev Coding"
+        },
+        {
+          "id": 3,
+          "date": "2019-2021",
+          "title": "4Dev Coding",
+          "desc": "Felizmente, a conclusao do estágio profissional resultou numa oportunidade de emprego como Full stack developer"
+        }
+      ]
+    },
+    "section5": {
+      "title": "Formação",
+      "subtitle": "onde estudei",
+      "carousel": [
+        {
+          "id": 1,
+          "date": "2015-2018",
+          "title": "EPB",
+          "desc": "Gestão e programação de sistemas informáticos"
+        },
+        {
+          "id": 2,
+          "date": "2020-2022",
+          "title": "IPCA",
+          "desc": "Desenvolvimento web e multimédia"
+        }
+      ]
+    },
+    "section6": {
+      "title": "Skills Code",
+      "subtitle": "com que trabalho",
+      "skills": [
+        {
+          "id": 1,
+          "title": "C#",
+          "value": "70",
+          "desc": ""
+        },
+        {
+          "id": 7,
+          "title": "asp.net & asp.net core",
+          "value": "70",
+          "desc": ""
+        },
+        {
+          "id": 7,
+          "title": "Angular",
+          "value": "50",
+          "desc": ""
+        },
+        {
+          "id": 2,
+          "title": "HTML",
+          "value": "65",
+          "desc": ""
+        },
+        {
+          "id": 3,
+          "title": "TS & JS",
+          "value": "60",
+          "desc": ""
+        },
+        {
+          "id": 4,
+          "title": "SQL & PostgreSQL",
+          "value": "60",
+          "desc": ""
+        },
+        {
+          "id": 5,
+          "title": "Node.js",
+          "value": "30",
+          "desc": ""
+        },
+        {
+          "id": 6,
+          "title": "React Native",
+          "value": "40",
+          "desc": ""
+        },
+        {
+          "id": 10,
+          "title": "CSS & SCSS",
+          "value": "50",
+          "desc": ""
+        }
+      ]
+    },
+    "section7": {
+      "title": "Repositórios Git",
+      "subtitle": "//Api git"
+    },
+    "section8": {
+      "title": "Projects",
+      "subtitle": "Work With",
+      "items": [
+        {
+          "title": "",
+          "img": "",
+          "desc": "",
+          "tags": "Web Apps ● API's"
+        },
+        {
+          "title": "",
+          "img": "",
+          "desc": "",
+          "tags": "Web Apps ● API's"
+        }
+      ]
+    },
+    "footer": {
+      "insta": "",
+      "git": "https://github.com/BrunoFaria11",
+      "linkedIn": "https://linkedin.com/in/brunofariamacedo"
+    }
+  },
+  "eng": {
+    "navbar": {
+      "home": "Home",
+      "about": "About me",
+      "resume": "Experience",
+      "education": "Education",
+      "skills": "Skills Code"
+    },
+    "section1": {
+      "typing": [
+        "C#",
+        ".net",
+        "SQL Server",
+        "Angular"
+      ],
+      "btn1":"Contacte-me",
+      "btn2":"Download CV",
+      "name": "Bruno Faria",
+      "resume": "I'm a software and web developer at 4DevCoding. I have been working with ASP.NET, C#, HTML, CSS, JS and SQL Server for about three years."
+    },
+    "section2": {
+      "title": "About me",
+      "subtitle": "Contacts",
+      "content": [
+        {
+          "IsFull": true,
+          "value": "I'm a proactive and interested person. I am currently attending the Web Development course at Instituo Politécnico do Cávado e do Ave, in order to deepen my knowledge, specifically in Angular and PostgreSQL."
+        },
+        {
+          "IsFull": true,
+          "value": "Out of curiosity, I decided in a less developed way acquire knowledge in Node.js, React, and React Native."
+        }
+      ],
+      "personalInfo": [
+        {
+          "Address": "Braga, Portugal"
+        },
+        {
+          "Email": "bruno.eduardo.faria99@gmail.com"
+        },
+        {
+          "Phone": "927019328"
+        },
+        {
+          "Age": "21"
+        }
+      ]
+    },
+    "section3": {
+      "title": "Serviços",
+      "subtitle": "Capacidades",
+      "services": [
+        {
+          "icon": "backend.png",
+          "title": {
+            "value1": "Back-End",
+            "value2": "",
+            "br": false
+          },
+          "text": {
+            "IsFull": false,
+            "value": "Ao longo dos três anos de trabalho adquiri conhecimentos que me permitem realizar APIs, cronjobs e tarefas em back-end utilizando c#. Atualmente, estou a aprender bases em node.js."
+          }
+        },
+        {
+          "icon": "server.png",
+          "title": {
+            "value1": "Base",
+            "value2": "de Dados",
+            "br": false
+          },
+          "text": {
+            "IsFull": false,
+            "value": "Devido a projetos realizados na empresa que represento, tive a oportunidade de explorar algumas Bases de Dados na tecnologia SQL Server. Desta forma, adquiri conhecimentos na criação, modelagem e na prática de Queries. "
+          }
+        },
+        {
+          "icon": "mobile-app.png",
+          "title": {
+            "value1": "Mobile",
+            "value2": "Apps",
+            "br": false
+          },
+          "text": {
+            "IsFull": false,
+            "value": "Para Mobile Apps tenho aprofundado conhecimentos em uma ferramenta híbrida, nomeadamente React Native. Esta permite realizar a build para os sistemas operativos Android e IOS."
+          }
+        },
+        {
+          "icon": "ux.png",
+          "title": {
+            "value1": "Front-End",
+            "value2": "",
+            "br": false
+          },
+          "text": {
+            "IsFull": false,
+            "value": "Neste momento encontro-me a aplicar em alguns projetos o conhecimento em Angular, utilizando HTML, CSS & SCSS, TS & JS."
+          }
+        }
+      ]
+    },
+    "section4": {
+      "title": "Experiência",
+      "subtitle": "com quem trabalhei",
+      "carousel": [
+        {
+          "id": 1,
+          "date": "2017-2018",
+          "title": "4Dev Coding",
+          "desc": "Enquanto estudante técnico de programação informática, tive o privilégio de fazer o meu estágio curricular na empresa 4Dev Coding."
+        },
+        {
+          "id": 2,
+          "date": "2018-2019",
+          "title": "4Dev Coding",
+          "desc": "Após o estágio curricular, surgiu a oportunidade de realizar um estágio profissional de 9 meses na 4Dev Coding"
+        },
+        {
+          "id": 3,
+          "date": "2019-2021",
+          "title": "4Dev Coding",
+          "desc": "Felizmente, a conclusao do estágio profissional resultou numa oportunidade de emprego como Full stack developer"
+        }
+      ]
+    },
+    "section5": {
+      "title": "Formação",
+      "subtitle": "onde estudei",
+      "carousel": [
+        {
+          "id": 1,
+          "date": "2015-2018",
+          "title": "EPB",
+          "desc": "Gestão e programação de sistemas informáticos"
+        },
+        {
+          "id": 2,
+          "date": "2020-2022",
+          "title": "IPCA",
+          "desc": "Desenvolvimento web e multimédia"
+        }
+      ]
+    },
+    "section6": {
+      "title": "Skills Code",
+      "subtitle": "com que trabalho",
+      "skills": [
+        {
+          "id": 1,
+          "title": "C#",
+          "value": "70",
+          "desc": ""
+        },
+        {
+          "id": 7,
+          "title": "asp.net & asp.net core",
+          "value": "70",
+          "desc": ""
+        },
+        {
+          "id": 7,
+          "title": "Angular",
+          "value": "50",
+          "desc": ""
+        },
+        {
+          "id": 2,
+          "title": "HTML",
+          "value": "65",
+          "desc": ""
+        },
+        {
+          "id": 3,
+          "title": "TS & JS",
+          "value": "60",
+          "desc": ""
+        },
+        {
+          "id": 4,
+          "title": "SQL & PostgreSQL",
+          "value": "60",
+          "desc": ""
+        },
+        {
+          "id": 5,
+          "title": "Node.js",
+          "value": "30",
+          "desc": ""
+        },
+        {
+          "id": 6,
+          "title": "React Native",
+          "value": "40",
+          "desc": ""
+        },
+        {
+          "id": 10,
+          "title": "CSS & SCSS",
+          "value": "50",
+          "desc": ""
+        }
+      ]
+    },
+    "section7": {
+      "title": "Repositórios Git",
+      "subtitle": "//Api git"
+    },
+    "section8": {
+      "title": "Projects",
+      "subtitle": "Work With",
+      "items": [
+        {
+          "title": "",
+          "img": "",
+          "desc": "",
+          "tags": "Web Apps ● API's"
+        },
+        {
+          "title": "",
+          "img": "",
+          "desc": "",
+          "tags": "Web Apps ● API's"
+        }
+      ]
+    },
+    "footer": {
+      "insta": "",
+      "facebook": "",
+      "linkedIn": ""
+    }
+  }
+}

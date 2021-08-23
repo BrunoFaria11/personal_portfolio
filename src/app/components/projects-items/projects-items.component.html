@@ -1,0 +1,70 @@
+<div class="content-carousel">
+  <owl-carousel-o [options]="owlOptions" #owlCar>
+    <ng-container *ngFor="let data of props.items">
+      <ng-template carouselSlide>
+        <div class="col-12 item">
+          <div class="card hx-354 hx-md-300 hx-sm-180">
+            <a href="/project/master">
+              <div class="position-absolute w-100 hx-354 hx-md-300 hx-sm-180">
+                <div class="br-8 project-layer layer layer-primary w-100 hx-354
+                  hx-md-300
+                  hx-sm-180"></div>
+                <img class="br-8 w-100 hx-354 hx-md-300 hx-sm-180 object-cover
+                  left-0
+                  right-0"
+                  src="{{data.image}}">
+              </div>
+              <div class="pt-32 pb-32 pr-32 pl-32 position-absolute w-100 hx-354
+                hx-md-300
+                hx-sm-180 z-10">
+                <div class="project-reference-description">
+                  <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                      <div class="position-absolute project-card-title">
+                        <h3 class="text-white text-left">{{data.title}}</h3>
+                        <div class="mt-8 text-left">
+                          <h6 class="text-white font-weight-normal pr-196">{{data.type}}</h6>
+                        </div>
+                      </div>
+
+                      <div class="mt-242 project-card-footer">
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6 pt-12">
+                            <h6 class="text-white">{{data.tags}}</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mt-120 mt-sm-50 project-card-footer-sm">
+                        <div class="row">
+
+                          <div class="col-12 pt-12">
+                            <h3 class="text-white font-weight-800 text-left">{{data.title}}</h3>
+                            <h6 class="text-white mt-6">{{data.tags}}</h6>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </ng-template>
+    </ng-container>
+
+  </owl-carousel-o>
+
+  <!-- navigation -->
+  <div class="navs">
+    <div class="prev" (click)="owlCar.prev()">
+      <fa-icon [icon]="icons.faChevronLeft_" style="font-size: 14px"></fa-icon>
+    </div>
+    <div class="next" (click)="owlCar.next()">
+      <fa-icon [icon]="icons.faChevronRight_" style="font-size: 14px"></fa-icon>
+    </div>
+  </div>
+
+</div>
+

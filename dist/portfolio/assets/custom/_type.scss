@@ -1,0 +1,171 @@
+$sm-max: map-get($grid-breakpoints, "sm");
+$md-max: map-get($grid-breakpoints, "md");
+$lg-max: map-get($grid-breakpoints, "lg");
+$xl-max: map-get($grid-breakpoints, "xl");
+
+// General styles
+h1, .h1 {
+    /*line-height: 53px;*/
+}
+h2, .h2 {
+    /*line-height: 45px;*/
+}
+h3, .h3 {
+    /*line-height: 37px;*/
+    /*font-weight: 700;*/
+}
+h4, .h4 {
+    /*line-height: 29px;*/
+    /*font-weight: 300;*/
+}
+
+.text-home-title {
+    font-size: 80px;
+    line-height: 80px;
+}
+
+@media screen and (max-width: ($lg-max)-1) {
+    h1, h2, .h1, .h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    h3, .h3 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    h4, .h4 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .text-home-title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+.text-subtitle{
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.text-pastel {
+    color: $pink;
+}
+.text-grey {
+    color: #878787;
+}
+
+.text-sm-bold {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+.text-32-light {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+@media screen and (max-width: ($lg-max)-1) {
+    .text-32-light {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 32px;
+    }
+}
+
+p {
+    font-size: $paragraph-font-size;
+    font-weight: $paragraph-font-weight;
+    line-height: $paragraph-line-height;
+}
+
+.lead {
+    font-size: $lead-font-size;
+    font-weight: $lead-font-weight;
+    line-height: $paragraph-line-height;
+    margin-top: 18px;
+
+    + .btn-wrapper {
+        margin-top: 48px;
+    }
+}
+
+.description {
+    font-size: $font-size-sm;
+}
+
+// Headings
+
+.heading {
+    letter-spacing: $heading-letter-spacing;
+    font-size: $heading-font-size;
+    text-transform: $heading-text-transform;
+    font-weight: $heading-font-weight;
+}
+
+.heading-title {
+    letter-spacing: $heading-title-letter-spacing;
+    font-size: $heading-title-font-size;
+    font-weight: $heading-title-font-weight;
+    text-transform: $heading-title-text-transform;
+}
+
+.heading-section {
+    letter-spacing: $heading-section-letter-spacing;
+    font-size: $heading-section-font-size;
+    font-weight: $heading-section-font-weight;
+    text-transform: $heading-section-text-transform;
+
+    img {
+        display: block;
+        width: 72px;
+        height: 72px;
+        margin-bottom: 18px;
+    }
+
+    &.text-center {
+        img {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+// Section titles
+
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+    span {
+        display: block;
+        font-weight: $font-weight-light;
+    }
+}
+
+
+// Articles
+
+article {
+    h4:not(:first-child),
+    h5:not(:first-child) {
+        margin-top: 48px;
+    }
+
+    h4, h5 {
+        margin-bottom: 18px;
+    }
+
+    figure {
+        margin: 48px 0;
+    }
+
+    h5 + figure {
+        margin-top: 0;
+    }
+}

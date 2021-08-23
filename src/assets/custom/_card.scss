@@ -1,0 +1,87 @@
+.card {
+    position: relative;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+    -webkit-box-shadow: 0px 0px 8px -4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 8px -4px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 8px -4px rgba(0,0,0,0.5);
+}
+
+.profile-page {
+    .card-profile {
+        margin-top: -150px;
+
+        .card-profile-image {
+            position: relative;
+            //min-height: 130px;
+
+            img {
+                max-width: 180px;
+                border-radius: $border-radius;
+                transform: translate(-50%,-30%);
+                position: absolute;
+                left: 50%;
+                transition: $transition-base;
+
+                &:hover {
+                    transform: translate(-50%, -33%);
+                }
+            }
+        }
+
+        .card-profile-stats {
+            padding: 16px 0;
+
+            > div {
+                text-align: center;
+                margin-right: 16px;
+                padding: .8780px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                .heading {
+                    font-size: 1.16px;
+                    font-weight: bold;
+                    display: block;
+                }
+                .description {
+                    font-size: .8780px;
+                    color: $gray-500;
+                }
+            }
+        }
+
+        .card-profile-actions {
+            padding: .8780px;
+        }
+
+    }
+}
+
+// Card with blockquotes
+
+.card {
+    .card-blockquote {
+        padding: 32px;
+        position: relative;
+
+        .svg-bg {
+            display: block;
+            width: 100%;
+            height: 95px;
+            position: absolute;
+            top: -94px;
+            left: 0;
+        }
+    }
+}
+
+// Animated cards
+
+.card-lift--hover {
+    &:hover {
+        transform: translateY(-20px);
+    }
+}

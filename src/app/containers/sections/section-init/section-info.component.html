@@ -1,0 +1,34 @@
+<div class="section started" id="section-started">
+  <div class="centrize full-width">
+    <div class="vertical-center">
+
+      <app-name-info [props]="{value:data_.section1.name}">
+      </app-name-info>
+
+      <div class="started-content">
+        <div class="h-subtitles">
+          <div class="h-subtitle typing-subtitle">
+            <p *ngFor="let item of data_.section1.typing">{{item}}</p>
+          </div>
+          <span class="typed-subtitle"></span>
+        </div>
+      </div>
+
+      <div class="started-content">
+
+        <div class="h-text">
+          {{data_.section1.resume}}
+        </div>
+
+        <a href="mailto: bruno.eduardo.faria99@gmail.com" class="btn">
+          <span class="animated-button"><span>{{data_.section1.btn1}}</span></span>
+          <i class="icon fas fa-chevron-right"></i>
+        </a>
+        <!-- <a download="Curriculo.pdf" target="_blank" href="../../../../assets/Curriculo-Bruno Faria.pdf"class="btn">
+          <span class="animated-button"><span>{{data_.section1.btn2}}</span></span>
+          <i class="icon fas fa-chevron-right"></i>
+        </a> -->
+      </div>
+    </div>
+  </div>
+</div>

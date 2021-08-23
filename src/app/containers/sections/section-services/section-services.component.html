@@ -1,0 +1,27 @@
+ <!-- Section Service -->
+<div class="section service" id="section-services">
+  <div class="content">
+
+    <!-- title -->
+    <div class="titles">
+      <div class="title">{{data_.section3.title}}</div>
+      <div class="subtitle">{{data_.section3.subtitle}}</div>
+    </div>
+
+    <!-- services items -->
+    <div class="service-items">
+      <div class="service-col" *ngFor="let item of data_.section3.services">
+        <div class="service-item" >
+          <div class="icon">
+            <img src="{{imagesPath}}/{{item.icon}}" alt="">
+          </div>
+          <app-title [props]="item.title"></app-title>
+          <app-text-content [props]="item.text">
+          </app-text-content>
+        </div>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+</div>

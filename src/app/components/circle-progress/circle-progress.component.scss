@@ -1,0 +1,31 @@
+@import "../../../assets/custom/variables";
+
+:host ::ng-deep .mat-progress-spinner circle,
+.mat-spinner circle {
+  stroke: $secondary !important;
+  stroke-width: 76% !important;
+}
+
+div {
+  .value {
+    font-size: 12px;
+    color: $secondary;
+    position: relative;
+    top: -87px;
+    left: 35px;
+  }
+}
+
+@media (max-width: 720px) {
+  div {
+    .value {
+      left: 1px;
+    }
+  }
+}
+
+.progress-bar {
+  position: relative;
+  text-align: center;
+  color: white;
+}

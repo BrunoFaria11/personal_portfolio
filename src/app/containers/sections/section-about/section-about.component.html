@@ -1,0 +1,31 @@
+ <!-- Section About -->
+<div class="section about" id="section-about">
+  <div class="content">
+
+    <!-- title -->
+    <div class="titles">
+      <div class="title">{{data_.section2.title}}</div>
+      <div class="subtitle">{{data_.section2.subtitle}}</div>
+    </div>
+
+    <!-- text -->
+    <div class="row">
+      <app-text-content
+        [props]="{IsFull: true,value:data_.section1.resume}" class="d-block d-xl-none d-sm-block d-md-block d-lg-none col-12">
+      </app-text-content>
+      <app-text-content *ngFor="let item of data_.section2.content"
+        [props]="item" [ngClass]="{'col-12': item.IsFull === true ,'col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12': item.IsFull === false }">
+      </app-text-content>
+    </div>
+
+    <!-- info list -->
+    <div class="mt-5">
+      <app-info-list [props]="{items:data_.section2.personalInfo}"
+        class="mt-10">
+      </app-info-list>
+    </div>
+
+
+    <div class="clear"></div>
+  </div>
+</div>

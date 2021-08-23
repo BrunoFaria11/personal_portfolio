@@ -1,0 +1,7 @@
+<div class="info-list">
+  <ul>
+    <li *ngFor="let item of props.items; let i=index " >
+      <strong> {{objectKeys(item)}}:</strong> {{objectValues(item)}}
+    </li>
+  </ul>
+</div>

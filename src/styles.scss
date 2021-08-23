@@ -1,0 +1,17 @@
+@import "../src/assets/custom/variables";
+@import "../src/assets/custom/layout.scss";
+@import "../src/assets/custom/basic.scss";
+@import "../src/assets/custom/settings";
+
+@font-face {
+  font-family: "Code";
+  src: local("Code"),
+    url("assets/fonts/Courier\ Prime\ Code\ Italic.ttf") format("truetype");
+}
+.body {
+  background-color: #373b40;
+  font-family: Code;
+}
+.animated-button:hover{
+  cursor: pointer;
+}
